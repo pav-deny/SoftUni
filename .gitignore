@@ -1,53 +1,63 @@
-# Prerequisites
-*.d
+# Build results
+bin/
+obj/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-*.vs
+# Rider project files
+.idea/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Precompiled Headers
-*.gch
-*.pch
+# Mono Auto Generated Files
+mono_crash.*
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Visual Studio Code
+.vscode/
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# NuGet
+*.nupkg
+# The packages folder can be ignored because of PackageReference
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# DotCover
+.idea/
+*.dotCover
+
+# Rider
+.idea/
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Azure build pipeline
+.azure-pipelines/
+
+# Logs
+*.log
+
+# Coverage results
+TestResults/
+*.coverage
+*.coveragexml
+*.codecoverage
+
+# Others
+*.vs/
+*.dbmdl
+*.bak
+*.sql
+
