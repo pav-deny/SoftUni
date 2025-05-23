@@ -1,0 +1,240 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28B7F680-DA55-48AA-9A82-888DD3944C77}|13.HolidaysBetweenTwoDates-Debug\\13.HolidaysBetweenTwoDates-Debug.csproj|c:\\users\\denip\\onedrive\\desktop\\deny\\c#\\softuni\\fundamentals\\01.basicsyntaxconditionalstatementsandloops\\13.holidaysbetweentwodates-debug\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B7F680-DA55-48AA-9A82-888DD3944C77}|13.HolidaysBetweenTwoDates-Debug\\13.HolidaysBetweenTwoDates-Debug.csproj|solutionrelative:13.holidaysbetweentwodates-debug\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2253DD-B424-48C2-A85E-4E745D96EC60}|12.EvenNumber\\12.EvenNumber.csproj|c:\\users\\denip\\onedrive\\desktop\\deny\\c#\\softuni\\fundamentals\\01.basicsyntaxconditionalstatementsandloops\\12.evennumber\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF2253DD-B424-48C2-A85E-4E745D96EC60}|12.EvenNumber\\12.EvenNumber.csproj|solutionrelative:12.evennumber\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9665A512-C2ED-477F-BFBA-5B68B7CC8172}|11.MultiplicationTable2.0\\11.MultiplicationTable2.0.csproj|c:\\users\\denip\\onedrive\\desktop\\deny\\c#\\softuni\\fundamentals\\01.basicsyntaxconditionalstatementsandloops\\11.multiplicationtable2.0\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9665A512-C2ED-477F-BFBA-5B68B7CC8172}|11.MultiplicationTable2.0\\11.MultiplicationTable2.0.csproj|solutionrelative:11.multiplicationtable2.0\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBEF701E-240B-458C-ADD3-4F2E75441A35}|10.MultiplicationTable\\10.MultiplicationTable.csproj|c:\\users\\denip\\onedrive\\desktop\\deny\\c#\\softuni\\fundamentals\\01.basicsyntaxconditionalstatementsandloops\\10.multiplicationtable\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBEF701E-240B-458C-ADD3-4F2E75441A35}|10.MultiplicationTable\\10.MultiplicationTable.csproj|solutionrelative:10.multiplicationtable\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C1F00C1-9884-4FD8-8265-C741C1E0615C}|09.SumOfOddNumbers\\09.SumOfOddNumbers.csproj|c:\\users\\denip\\onedrive\\desktop\\deny\\c#\\softuni\\fundamentals\\01.basicsyntaxconditionalstatementsandloops\\09.sumofoddnumbers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C1F00C1-9884-4FD8-8265-C741C1E0615C}|09.SumOfOddNumbers\\09.SumOfOddNumbers.csproj|solutionrelative:09.sumofoddnumbers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39354E7-ECEF-4F31-A42B-0E5B01B328A9}|08.DivisibleBy3\\08.DivisibleBy3.csproj|c:\\users\\denip\\onedrive\\desktop\\deny\\c#\\softuni\\fundamentals\\01.basicsyntaxconditionalstatementsandloops\\08.divisibleby3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39354E7-ECEF-4F31-A42B-0E5B01B328A9}|08.DivisibleBy3\\08.DivisibleBy3.csproj|solutionrelative:08.divisibleby3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4FA0E78-8F09-4FBB-9B3C-6140F2415616}|07.TheatrePromotions\\07.TheatrePromotions.csproj|c:\\users\\denip\\onedrive\\desktop\\deny\\c#\\softuni\\fundamentals\\01.basicsyntaxconditionalstatementsandloops\\07.theatrepromotions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4FA0E78-8F09-4FBB-9B3C-6140F2415616}|07.TheatrePromotions\\07.TheatrePromotions.csproj|solutionrelative:07.theatrepromotions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{470A3D33-DE30-42CF-9573-6AD8B7095C6C}|06.ForeignLanguages\\06.ForeignLanguages.csproj|c:\\users\\denip\\onedrive\\desktop\\deny\\c#\\softuni\\fundamentals\\01.basicsyntaxconditionalstatementsandloops\\06.foreignlanguages\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{470A3D33-DE30-42CF-9573-6AD8B7095C6C}|06.ForeignLanguages\\06.ForeignLanguages.csproj|solutionrelative:06.foreignlanguages\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637DEC3A-B482-43B4-8F59-71F81FE231D7}|05.MonthPrinter\\05.MonthPrinter.csproj|c:\\users\\denip\\onedrive\\desktop\\deny\\c#\\softuni\\fundamentals\\01.basicsyntaxconditionalstatementsandloops\\05.monthprinter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637DEC3A-B482-43B4-8F59-71F81FE231D7}|05.MonthPrinter\\05.MonthPrinter.csproj|solutionrelative:05.monthprinter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59380EEB-078E-401A-97E6-77D17B4DDBF6}|04.BackIn30Minutes\\04.BackIn30Minutes.csproj|c:\\users\\denip\\onedrive\\desktop\\deny\\c#\\softuni\\fundamentals\\01.basicsyntaxconditionalstatementsandloops\\04.backin30minutes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59380EEB-078E-401A-97E6-77D17B4DDBF6}|04.BackIn30Minutes\\04.BackIn30Minutes.csproj|solutionrelative:04.backin30minutes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5061AE7E-ECBE-4C12-BBC3-75F446F07F81}|03.PassedOrFailed\\03.PassedOrFailed.csproj|c:\\users\\denip\\onedrive\\desktop\\deny\\c#\\softuni\\fundamentals\\01.basicsyntaxconditionalstatementsandloops\\03.passedorfailed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5061AE7E-ECBE-4C12-BBC3-75F446F07F81}|03.PassedOrFailed\\03.PassedOrFailed.csproj|solutionrelative:03.passedorfailed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B8C418B-F461-49BD-8DA6-E688CE59C63F}|02.Passed\\02.Passed.csproj|c:\\users\\denip\\onedrive\\desktop\\deny\\c#\\softuni\\fundamentals\\01.basicsyntaxconditionalstatementsandloops\\02.passed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B8C418B-F461-49BD-8DA6-E688CE59C63F}|02.Passed\\02.Passed.csproj|solutionrelative:02.passed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AADBCAE-6595-439E-A5E9-0F5F13F09661}|01.StudentInfo\\01.StudentInfo.csproj|c:\\users\\denip\\onedrive\\desktop\\deny\\c#\\softuni\\fundamentals\\01.basicsyntaxconditionalstatementsandloops\\01.studentinfo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AADBCAE-6595-439E-A5E9-0F5F13F09661}|01.StudentInfo\\01.StudentInfo.csproj|solutionrelative:01.studentinfo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\13.HolidaysBetweenTwoDates-Debug\\Program.cs",
+              "RelativeDocumentMoniker": "13.HolidaysBetweenTwoDates-Debug\\Program.cs",
+              "ToolTip": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\13.HolidaysBetweenTwoDates-Debug\\Program.cs",
+              "RelativeToolTip": "13.HolidaysBetweenTwoDates-Debug\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:31:53.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\12.EvenNumber\\Program.cs",
+              "RelativeDocumentMoniker": "12.EvenNumber\\Program.cs",
+              "ToolTip": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\12.EvenNumber\\Program.cs",
+              "RelativeToolTip": "12.EvenNumber\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:26:36.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\11.MultiplicationTable2.0\\Program.cs",
+              "RelativeDocumentMoniker": "11.MultiplicationTable2.0\\Program.cs",
+              "ToolTip": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\11.MultiplicationTable2.0\\Program.cs",
+              "RelativeToolTip": "11.MultiplicationTable2.0\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:25:02.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\10.MultiplicationTable\\Program.cs",
+              "RelativeDocumentMoniker": "10.MultiplicationTable\\Program.cs",
+              "ToolTip": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\10.MultiplicationTable\\Program.cs",
+              "RelativeToolTip": "10.MultiplicationTable\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:21:02.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\09.SumOfOddNumbers\\Program.cs",
+              "RelativeDocumentMoniker": "09.SumOfOddNumbers\\Program.cs",
+              "ToolTip": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\09.SumOfOddNumbers\\Program.cs",
+              "RelativeToolTip": "09.SumOfOddNumbers\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:14:51.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\08.DivisibleBy3\\Program.cs",
+              "RelativeDocumentMoniker": "08.DivisibleBy3\\Program.cs",
+              "ToolTip": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\08.DivisibleBy3\\Program.cs",
+              "RelativeToolTip": "08.DivisibleBy3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:12:55.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\07.TheatrePromotions\\Program.cs",
+              "RelativeDocumentMoniker": "07.TheatrePromotions\\Program.cs",
+              "ToolTip": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\07.TheatrePromotions\\Program.cs",
+              "RelativeToolTip": "07.TheatrePromotions\\Program.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAYwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:06:19.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\06.ForeignLanguages\\Program.cs",
+              "RelativeDocumentMoniker": "06.ForeignLanguages\\Program.cs",
+              "ToolTip": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\06.ForeignLanguages\\Program.cs",
+              "RelativeToolTip": "06.ForeignLanguages\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:03:08.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\05.MonthPrinter\\Program.cs",
+              "RelativeDocumentMoniker": "05.MonthPrinter\\Program.cs",
+              "ToolTip": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\05.MonthPrinter\\Program.cs",
+              "RelativeToolTip": "05.MonthPrinter\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAkwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T18:59:08.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\04.BackIn30Minutes\\Program.cs",
+              "RelativeDocumentMoniker": "04.BackIn30Minutes\\Program.cs",
+              "ToolTip": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\04.BackIn30Minutes\\Program.cs",
+              "RelativeToolTip": "04.BackIn30Minutes\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T18:54:43.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\03.PassedOrFailed\\Program.cs",
+              "RelativeDocumentMoniker": "03.PassedOrFailed\\Program.cs",
+              "ToolTip": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\03.PassedOrFailed\\Program.cs",
+              "RelativeToolTip": "03.PassedOrFailed\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T18:53:35.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\02.Passed\\Program.cs",
+              "RelativeDocumentMoniker": "02.Passed\\Program.cs",
+              "ToolTip": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\02.Passed\\Program.cs",
+              "RelativeToolTip": "02.Passed\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T17:16:57.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\01.StudentInfo\\Program.cs",
+              "RelativeDocumentMoniker": "01.StudentInfo\\Program.cs",
+              "ToolTip": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.BasicSyntaxConditionalStatementsAndLoops\\01.StudentInfo\\Program.cs",
+              "RelativeToolTip": "01.StudentInfo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T16:32:25.033Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

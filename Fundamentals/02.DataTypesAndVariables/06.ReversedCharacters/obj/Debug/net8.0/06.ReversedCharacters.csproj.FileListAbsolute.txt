@@ -1,0 +1,14 @@
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\06.ReversedCharacters\bin\Debug\net8.0\06.ReversedCharacters.exe
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\06.ReversedCharacters\bin\Debug\net8.0\06.ReversedCharacters.deps.json
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\06.ReversedCharacters\bin\Debug\net8.0\06.ReversedCharacters.runtimeconfig.json
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\06.ReversedCharacters\bin\Debug\net8.0\06.ReversedCharacters.dll
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\06.ReversedCharacters\bin\Debug\net8.0\06.ReversedCharacters.pdb
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\06.ReversedCharacters\obj\Debug\net8.0\06.ReversedCharacters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\06.ReversedCharacters\obj\Debug\net8.0\06.ReversedCharacters.AssemblyInfoInputs.cache
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\06.ReversedCharacters\obj\Debug\net8.0\06.ReversedCharacters.AssemblyInfo.cs
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\06.ReversedCharacters\obj\Debug\net8.0\06.ReversedCharacters.csproj.CoreCompileInputs.cache
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\06.ReversedCharacters\obj\Debug\net8.0\06.ReversedCharacters.dll
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\06.ReversedCharacters\obj\Debug\net8.0\refint\06.ReversedCharacters.dll
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\06.ReversedCharacters\obj\Debug\net8.0\06.ReversedCharacters.pdb
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\06.ReversedCharacters\obj\Debug\net8.0\06.ReversedCharacters.genruntimeconfig.cache
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\06.ReversedCharacters\obj\Debug\net8.0\ref\06.ReversedCharacters.dll

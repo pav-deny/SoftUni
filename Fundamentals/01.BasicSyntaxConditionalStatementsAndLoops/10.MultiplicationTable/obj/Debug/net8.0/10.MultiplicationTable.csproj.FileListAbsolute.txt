@@ -1,0 +1,14 @@
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01.BasicSyntaxConditionalStatementsAndLoops\10.MultiplicationTable\bin\Debug\net8.0\10.MultiplicationTable.exe
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01.BasicSyntaxConditionalStatementsAndLoops\10.MultiplicationTable\bin\Debug\net8.0\10.MultiplicationTable.deps.json
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01.BasicSyntaxConditionalStatementsAndLoops\10.MultiplicationTable\bin\Debug\net8.0\10.MultiplicationTable.runtimeconfig.json
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01.BasicSyntaxConditionalStatementsAndLoops\10.MultiplicationTable\bin\Debug\net8.0\10.MultiplicationTable.dll
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01.BasicSyntaxConditionalStatementsAndLoops\10.MultiplicationTable\bin\Debug\net8.0\10.MultiplicationTable.pdb
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01.BasicSyntaxConditionalStatementsAndLoops\10.MultiplicationTable\obj\Debug\net8.0\10.MultiplicationTable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01.BasicSyntaxConditionalStatementsAndLoops\10.MultiplicationTable\obj\Debug\net8.0\10.MultiplicationTable.AssemblyInfoInputs.cache
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01.BasicSyntaxConditionalStatementsAndLoops\10.MultiplicationTable\obj\Debug\net8.0\10.MultiplicationTable.AssemblyInfo.cs
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01.BasicSyntaxConditionalStatementsAndLoops\10.MultiplicationTable\obj\Debug\net8.0\10.MultiplicationTable.csproj.CoreCompileInputs.cache
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01.BasicSyntaxConditionalStatementsAndLoops\10.MultiplicationTable\obj\Debug\net8.0\10.MultiplicationTable.dll
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01.BasicSyntaxConditionalStatementsAndLoops\10.MultiplicationTable\obj\Debug\net8.0\refint\10.MultiplicationTable.dll
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01.BasicSyntaxConditionalStatementsAndLoops\10.MultiplicationTable\obj\Debug\net8.0\10.MultiplicationTable.pdb
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01.BasicSyntaxConditionalStatementsAndLoops\10.MultiplicationTable\obj\Debug\net8.0\10.MultiplicationTable.genruntimeconfig.cache
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01.BasicSyntaxConditionalStatementsAndLoops\10.MultiplicationTable\obj\Debug\net8.0\ref\10.MultiplicationTable.dll

@@ -1,0 +1,14 @@
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\10.RageExpensses\bin\Debug\net8.0\10.RageExpensses.exe
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\10.RageExpensses\bin\Debug\net8.0\10.RageExpensses.deps.json
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\10.RageExpensses\bin\Debug\net8.0\10.RageExpensses.runtimeconfig.json
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\10.RageExpensses\bin\Debug\net8.0\10.RageExpensses.dll
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\10.RageExpensses\bin\Debug\net8.0\10.RageExpensses.pdb
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\10.RageExpensses\obj\Debug\net8.0\10.RageExpensses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\10.RageExpensses\obj\Debug\net8.0\10.RageExpensses.AssemblyInfoInputs.cache
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\10.RageExpensses\obj\Debug\net8.0\10.RageExpensses.AssemblyInfo.cs
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\10.RageExpensses\obj\Debug\net8.0\10.RageExpensses.csproj.CoreCompileInputs.cache
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\10.RageExpensses\obj\Debug\net8.0\10.RageExpensses.dll
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\10.RageExpensses\obj\Debug\net8.0\refint\10.RageExpensses.dll
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\10.RageExpensses\obj\Debug\net8.0\10.RageExpensses.pdb
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\10.RageExpensses\obj\Debug\net8.0\10.RageExpensses.genruntimeconfig.cache
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\10.RageExpensses\obj\Debug\net8.0\ref\10.RageExpensses.dll

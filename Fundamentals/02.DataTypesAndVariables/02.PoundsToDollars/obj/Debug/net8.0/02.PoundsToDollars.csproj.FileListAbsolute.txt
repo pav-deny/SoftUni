@@ -1,0 +1,14 @@
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\02.PoundsToDollars\bin\Debug\net8.0\02.PoundsToDollars.exe
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\02.PoundsToDollars\bin\Debug\net8.0\02.PoundsToDollars.deps.json
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\02.PoundsToDollars\bin\Debug\net8.0\02.PoundsToDollars.runtimeconfig.json
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\02.PoundsToDollars\bin\Debug\net8.0\02.PoundsToDollars.dll
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\02.PoundsToDollars\bin\Debug\net8.0\02.PoundsToDollars.pdb
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\02.PoundsToDollars\obj\Debug\net8.0\02.PoundsToDollars.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\02.PoundsToDollars\obj\Debug\net8.0\02.PoundsToDollars.AssemblyInfoInputs.cache
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\02.PoundsToDollars\obj\Debug\net8.0\02.PoundsToDollars.AssemblyInfo.cs
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\02.PoundsToDollars\obj\Debug\net8.0\02.PoundsToDollars.csproj.CoreCompileInputs.cache
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\02.PoundsToDollars\obj\Debug\net8.0\02.PoundsToDollars.dll
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\02.PoundsToDollars\obj\Debug\net8.0\refint\02.PoundsToDollars.dll
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\02.PoundsToDollars\obj\Debug\net8.0\02.PoundsToDollars.pdb
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\02.PoundsToDollars\obj\Debug\net8.0\02.PoundsToDollars.genruntimeconfig.cache
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\02.DataTypesAndVariables\02.PoundsToDollars\obj\Debug\net8.0\ref\02.PoundsToDollars.dll

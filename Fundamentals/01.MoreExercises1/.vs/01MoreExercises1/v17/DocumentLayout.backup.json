@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.MoreExercises1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35A7FB54-9A14-4A2C-8547-172D7C694D7A}|04.ReverseString\\04.ReverseString.csproj|c:\\users\\denip\\onedrive\\desktop\\deny\\c#\\softuni\\fundamentals\\01.moreexercises1\\04.reversestring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35A7FB54-9A14-4A2C-8547-172D7C694D7A}|04.ReverseString\\04.ReverseString.csproj|solutionrelative:04.reversestring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89CADFA3-4A02-4D9D-BB4A-582D6A3703EC}|03.GameStore\\03.GameStore.csproj|c:\\users\\denip\\onedrive\\desktop\\deny\\c#\\softuni\\fundamentals\\01.moreexercises1\\03.gamestore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89CADFA3-4A02-4D9D-BB4A-582D6A3703EC}|03.GameStore\\03.GameStore.csproj|solutionrelative:03.gamestore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E35D541A-EDE3-4DCC-8A06-E2A840DE0DD5}|02.LastDigitName\\02.LastDigitName.csproj|c:\\users\\denip\\onedrive\\desktop\\deny\\c#\\softuni\\fundamentals\\01.moreexercises1\\02.lastdigitname\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E35D541A-EDE3-4DCC-8A06-E2A840DE0DD5}|02.LastDigitName\\02.LastDigitName.csproj|solutionrelative:02.lastdigitname\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA16E99E-B73C-4D55-A3A5-A76FAD502753}|01.SortNumbers\\01.SortNumbers.csproj|c:\\users\\denip\\onedrive\\desktop\\deny\\c#\\softuni\\fundamentals\\01.moreexercises1\\01.sortnumbers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA16E99E-B73C-4D55-A3A5-A76FAD502753}|01.SortNumbers\\01.SortNumbers.csproj|solutionrelative:01.sortnumbers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.MoreExercises1\\04.ReverseString\\Program.cs",
+              "RelativeDocumentMoniker": "04.ReverseString\\Program.cs",
+              "ToolTip": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.MoreExercises1\\04.ReverseString\\Program.cs",
+              "RelativeToolTip": "04.ReverseString\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T12:47:58.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.MoreExercises1\\03.GameStore\\Program.cs",
+              "RelativeDocumentMoniker": "03.GameStore\\Program.cs",
+              "ToolTip": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.MoreExercises1\\03.GameStore\\Program.cs",
+              "RelativeToolTip": "03.GameStore\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T16:50:16.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.MoreExercises1\\02.LastDigitName\\Program.cs",
+              "RelativeDocumentMoniker": "02.LastDigitName\\Program.cs",
+              "ToolTip": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.MoreExercises1\\02.LastDigitName\\Program.cs",
+              "RelativeToolTip": "02.LastDigitName\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T14:03:52.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.MoreExercises1\\01.SortNumbers\\Program.cs",
+              "RelativeDocumentMoniker": "01.SortNumbers\\Program.cs",
+              "ToolTip": "C:\\Users\\denip\\OneDrive\\Desktop\\Deny\\C#\\SoftUni\\Fundamentals\\01.MoreExercises1\\01.SortNumbers\\Program.cs",
+              "RelativeToolTip": "01.SortNumbers\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T13:46:16.813Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

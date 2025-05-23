@@ -1,0 +1,14 @@
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\09.PadawanEquip\obj\Debug\net8.0\09.PadawanEquip.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\09.PadawanEquip\obj\Debug\net8.0\09.PadawanEquip.AssemblyInfoInputs.cache
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\09.PadawanEquip\obj\Debug\net8.0\09.PadawanEquip.AssemblyInfo.cs
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\09.PadawanEquip\obj\Debug\net8.0\09.PadawanEquip.csproj.CoreCompileInputs.cache
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\09.PadawanEquip\bin\Debug\net8.0\09.PadawanEquip.exe
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\09.PadawanEquip\bin\Debug\net8.0\09.PadawanEquip.deps.json
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\09.PadawanEquip\bin\Debug\net8.0\09.PadawanEquip.runtimeconfig.json
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\09.PadawanEquip\bin\Debug\net8.0\09.PadawanEquip.dll
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\09.PadawanEquip\bin\Debug\net8.0\09.PadawanEquip.pdb
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\09.PadawanEquip\obj\Debug\net8.0\09.PadawanEquip.dll
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\09.PadawanEquip\obj\Debug\net8.0\refint\09.PadawanEquip.dll
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\09.PadawanEquip\obj\Debug\net8.0\09.PadawanEquip.pdb
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\09.PadawanEquip\obj\Debug\net8.0\09.PadawanEquip.genruntimeconfig.cache
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01BasicSyntaxConditionalStatementsAndLoops-Exercise\09.PadawanEquip\obj\Debug\net8.0\ref\09.PadawanEquip.dll
