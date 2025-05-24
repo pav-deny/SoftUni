@@ -12,3 +12,4 @@ C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01.MoreExercises1\0
 C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01.MoreExercises1\03.GameStore\obj\Debug\net8.0\03.GameStore.pdb
 C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01.MoreExercises1\03.GameStore\obj\Debug\net8.0\03.GameStore.genruntimeconfig.cache
 C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01.MoreExercises1\03.GameStore\obj\Debug\net8.0\ref\03.GameStore.dll
+C:\Users\denip\OneDrive\Desktop\Deny\C#\SoftUni\Fundamentals\01.MoreExercises1\03.GameStore\obj\Debug\net8.0\03.GameStore.sourcelink.json
