@@ -1,0 +1,33 @@
+﻿.redHeader
+{
+    text-align: center;
+    font-size: 42px;
+    color: darkred;
+}
+.dBlue
+{
+    text-align:center;
+    font-size:40px;
+    color: darkblue
+}
+
+p
+{
+    color: blue;
+}
+body
+{
+    text-align: center
+}
+
+#OneOne
+{
+    text-align: center;
+    color: orange;
+}
+
+#link
+{
+    color: orangered;
+}
+

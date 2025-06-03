@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Demo", "0.Demo", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\..\..\Downloads\03-HTML-and-CSS-Intro.zip = ..\..\..\..\..\..\..\Downloads\03-HTML-and-CSS-Intro.zip
+		..\..\..\..\..\..\..\Downloads\03-HTML-and-CSS-Intro\03. HTML and CSS Basics\03_Fruits\images\apple.png = ..\..\..\..\..\..\..\Downloads\03-HTML-and-CSS-Intro\03. HTML and CSS Basics\03_Fruits\images\apple.png
+		..\..\..\..\..\..\..\Downloads\03-HTML-and-CSS-Intro\03. HTML and CSS Basics\03_Fruits\images\banana.png = ..\..\..\..\..\..\..\Downloads\03-HTML-and-CSS-Intro\03. HTML and CSS Basics\03_Fruits\images\banana.png
+		demo.css = demo.css
+		demo.html = demo.html
+		demo2.html = demo2.html
+		..\..\..\..\..\..\..\Downloads\03-HTML-and-CSS-Intro\03. HTML and CSS Basics\03_Fruits\images\kiwi.png = ..\..\..\..\..\..\..\Downloads\03-HTML-and-CSS-Intro\03. HTML and CSS Basics\03_Fruits\images\kiwi.png
+		..\..\..\..\..\..\..\Downloads\03-HTML-and-CSS-Intro\03. HTML and CSS Basics\03_Fruits\images\orange.png = ..\..\..\..\..\..\..\Downloads\03-HTML-and-CSS-Intro\03. HTML and CSS Basics\03_Fruits\images\orange.png
+		..\..\..\..\..\..\..\Downloads\tomato.jpg = ..\..\..\..\..\..\..\Downloads\tomato.jpg
+		..\..\..\..\..\..\..\Downloads\tomato2.png = ..\..\..\..\..\..\..\Downloads\tomato2.png
+		..\..\..\..\..\..\..\Downloads\Tomato_je.jpg = ..\..\..\..\..\..\..\Downloads\Tomato_je.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Fruits", "02.Fruits", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\..\..\Downloads\03-HTML-and-CSS-Intro\03. HTML and CSS Basics\03_Fruits\images\apple.png = ..\..\..\..\..\..\..\Downloads\03-HTML-and-CSS-Intro\03. HTML and CSS Basics\03_Fruits\images\apple.png
+		..\..\..\..\..\..\..\Downloads\03-HTML-and-CSS-Intro\03. HTML and CSS Basics\03_Fruits\images\banana.png = ..\..\..\..\..\..\..\Downloads\03-HTML-and-CSS-Intro\03. HTML and CSS Basics\03_Fruits\images\banana.png
+		fruits.html = fruits.html
+		..\..\..\..\..\..\..\Downloads\03-HTML-and-CSS-Intro\03. HTML and CSS Basics\03_Fruits\images\kiwi.png = ..\..\..\..\..\..\..\Downloads\03-HTML-and-CSS-Intro\03. HTML and CSS Basics\03_Fruits\images\kiwi.png
+		..\..\..\..\..\..\..\Downloads\03-HTML-and-CSS-Intro\03. HTML and CSS Basics\03_Fruits\images\orange.png = ..\..\..\..\..\..\..\Downloads\03-HTML-and-CSS-Intro\03. HTML and CSS Basics\03_Fruits\images\orange.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Welcome", "01.Welcome", "{8301A625-3B0E-41B6-9F1E-BDE0FB555698}"
+	ProjectSection(SolutionItems) = preProject
+		welcome.html = welcome.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.HTML Lists", "03.HTML Lists", "{57EF0DF2-F50C-4541-9912-9E82C2E520C8}"
+	ProjectSection(SolutionItems) = preProject
+		lists.html = lists.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.WikiPageHTML", "04.WikiPageHTML", "{5EB626E7-32BC-43F2-B876-3096C3C62139}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\..\..\Downloads\03-HTML-and-CSS-Intro\03. HTML and CSS Basics\05_Wiki Page\image\bear.jpg = ..\..\..\..\..\..\..\Downloads\03-HTML-and-CSS-Intro\03. HTML and CSS Basics\05_Wiki Page\image\bear.jpg
+		wikiPage.html = wikiPage.html
+		wikiStyle.css = wikiStyle.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution folder", "Solution folder", "{46BCCBB2-2A55-4F9F-8CE0-7993AA425BD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.ColourBlocks", "05.ColourBlocks", "{12AF3220-5E46-4F48-9E9A-19CBB7EFB1F7}"
+	ProjectSection(SolutionItems) = preProject
+		blocksStyle.css = blocksStyle.css
+		colourBlocks.html = colourBlocks.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D} = {46BCCBB2-2A55-4F9F-8CE0-7993AA425BD3}
+		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {46BCCBB2-2A55-4F9F-8CE0-7993AA425BD3}
+		{8301A625-3B0E-41B6-9F1E-BDE0FB555698} = {46BCCBB2-2A55-4F9F-8CE0-7993AA425BD3}
+		{57EF0DF2-F50C-4541-9912-9E82C2E520C8} = {46BCCBB2-2A55-4F9F-8CE0-7993AA425BD3}
+		{5EB626E7-32BC-43F2-B876-3096C3C62139} = {46BCCBB2-2A55-4F9F-8CE0-7993AA425BD3}
+		{12AF3220-5E46-4F48-9E9A-19CBB7EFB1F7} = {46BCCBB2-2A55-4F9F-8CE0-7993AA425BD3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EB6ED34-578C-45CD-842E-DFA32BD117F4}
+	EndGlobalSection
+EndGlobal
