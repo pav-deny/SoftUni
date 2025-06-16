@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.NxNMatrix", "07.NxNMatri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.ArrayManipulator", "11.ArrayManipulator\11.ArrayManipulator.csproj", "{60467BF7-4AEF-4DFC-85CF-15F6B955EAA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.ArrayManipulatorAnswer", "11.ArrayManipulatorAnswer\11.ArrayManipulatorAnswer.csproj", "{332E8A70-2FEB-4842-AE2C-F27861F5335C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SmallestOfThreeNumbers", "01.SmallestOfThreeNumbers\01.SmallestOfThreeNumbers.csproj", "{2C011A9F-534D-489F-8D64-6FB5F08F2B5A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.VowelsCount", "02.VowelsCount\02.VowelsCount.csproj", "{E593318A-3A07-42A1-854E-C720AB570E15}"
@@ -25,9 +23,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.MiddleCharacters", "06.M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.PalindromeIntegers", "09.PalindromeIntegers\09.PalindromeIntegers.csproj", "{ED109707-EF27-461D-AEED-7D9D0ABCFE8D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Delete", "Delete", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.TopNumber", "10.TopNumber\10.TopNumber.csproj", "{DA2DA77C-7A43-4797-974F-ED4410B7A363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.ArrayManipulator-ALT", "11.ArrayManipulator-ALT\11.ArrayManipulator-ALT.csproj", "{32EE4FBC-3B3F-4903-BCEF-59A22B6D2ED1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,10 +49,6 @@ Global
 		{60467BF7-4AEF-4DFC-85CF-15F6B955EAA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60467BF7-4AEF-4DFC-85CF-15F6B955EAA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60467BF7-4AEF-4DFC-85CF-15F6B955EAA7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{332E8A70-2FEB-4842-AE2C-F27861F5335C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{332E8A70-2FEB-4842-AE2C-F27861F5335C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{332E8A70-2FEB-4842-AE2C-F27861F5335C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{332E8A70-2FEB-4842-AE2C-F27861F5335C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2C011A9F-534D-489F-8D64-6FB5F08F2B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2C011A9F-534D-489F-8D64-6FB5F08F2B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C011A9F-534D-489F-8D64-6FB5F08F2B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -83,12 +77,13 @@ Global
 		{DA2DA77C-7A43-4797-974F-ED4410B7A363}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA2DA77C-7A43-4797-974F-ED4410B7A363}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA2DA77C-7A43-4797-974F-ED4410B7A363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32EE4FBC-3B3F-4903-BCEF-59A22B6D2ED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32EE4FBC-3B3F-4903-BCEF-59A22B6D2ED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32EE4FBC-3B3F-4903-BCEF-59A22B6D2ED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32EE4FBC-3B3F-4903-BCEF-59A22B6D2ED1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{332E8A70-2FEB-4842-AE2C-F27861F5335C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E3A39AB7-87CD-4F8C-890D-8BAE97714D79}

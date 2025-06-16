@@ -1,5 +1,4 @@
-﻿
-namespace _11.ArrayManipulator
+﻿namespace _11.ArrayManipulator_old
 {
     internal class Program
     {
@@ -175,7 +174,7 @@ namespace _11.ArrayManipulator
             {
                 if (CheckIfEvenOrOdd(nums[i], type))
                 {
-                    last += $"{nums[i]}, ";
+                    last = $"{nums[i]}, " + last;
                     currentCount++;
                 }
                 if (currentCount >= count)//If we reach the limit
@@ -184,7 +183,7 @@ namespace _11.ArrayManipulator
                 }
             }
 
-                Console.WriteLine($"[{last.Trim(' ', ',')}]");
+            Console.WriteLine($"[{last.Trim(' ', ',')}]");
         }
 
         //Other /common/ methods
@@ -234,3 +233,4 @@ namespace _11.ArrayManipulator
         }
     }
 }
+
