@@ -4,11 +4,18 @@
     {
         static void Main(string[] args)
         {
-            List<int> list = new() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
-            list.RemoveRange(4, 2);
-            list.RemoveRange(3, 2);
+            List<string> list = new() { "Hello", "World!", "I'm", "Me" };
+
+            list.RemoveAt(2);
+
+            list.Insert(2, "I am");
+            Console.WriteLine(string.Join(" ", list));
+
+            list.Insert(2, ",");
 
             Console.WriteLine(string.Join(" ", list));
+
+            
         }
     }
 }
