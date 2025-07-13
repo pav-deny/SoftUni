@@ -68,6 +68,6 @@ internal class Program
         }
 
         Console.WriteLine($"Best DNA sample {bestSequenceIndex} with sum: {bestSum}.");
-        Console.WriteLine($"RESULT {string.Join(" ", bestSequence)} KASSKATA");
+        Console.WriteLine($"{string.Join(" ", bestSequence)}");
     }
 }

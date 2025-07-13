@@ -13,7 +13,7 @@
             Console.WriteLine("Break: 1 bathroom break (before 10:00)");
             Console.WriteLine("\nExam made in: 1 hour 27 minutes\n/-15 minute bathroom/\n1 hour 12 minutes\n");
 
-            Console.WriteLine("Points:\n1: 30/100; 100/100\n2: 100/100\n3: 100/100\n----------\nTotal Points: 300/300\n");
+            Console.WriteLine($"Points:\n1: 30/100; 100/100\n2: 100/100\n3: 100/100\n----------\nTotal Points: 300/300\n");
             Console.WriteLine("Mistakes:\n1: {:f2} was accidentally deleted\n2: none\n3: none");
 
             Console.WriteLine("\nPress any key to continue...");
@@ -31,11 +31,23 @@
             Console.WriteLine("It wasn't hard and it was really short\n");
 
             Console.WriteLine("Press 's' to go back to the statistics screen\nPress any other key to end");
-            char key = char.Parse(Console.ReadLine());
+            var key = Console.ReadKey();
 
-            if (key == 's')
+            if (key.Key == ConsoleKey.S)
             {
                 Main();
+            }
+            else
+            {
+                Console.Clear();
+               
+                Console.WriteLine("Fundamentals May 2025 Mid Practical Exam");
+
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
+                Console.WriteLine("6.00 (300/300)\n");
+
+                Console.ForegroundColor = ConsoleColor.Gray;
+               
             }
         }
     }

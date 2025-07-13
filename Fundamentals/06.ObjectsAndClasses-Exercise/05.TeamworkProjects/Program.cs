@@ -63,6 +63,8 @@ namespace _05.TeamworkProjects
 
             List<Team> teamsToDisband = new();
 
+            teams.ForEach(t => t.Members.Sort());
+
             teams = teams.OrderBy(t => t.Name).ToList();
             teams = teams.OrderByDescending(t => t.Members.Count()).ToList();
             

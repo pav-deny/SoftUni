@@ -5,16 +5,19 @@
         static void Main(string[] args)
         {
             int sequences = int.Parse(Console.ReadLine());
-            string[] bestSequence = new string[sequences];
+            string[] bestSequence = Array.Empty<string>();
 
-            int bestCount = 0, bestIndex = int.MaxValue, bestSum = 0, bestSequenceNum = 0;
+            int bestCount = 0;
+            int bestIndex = int.MaxValue;
+            int bestSum = 0;
+            int bestSequenceNum = 1;
 
             string input = string.Empty;
             int sequenceNum = 0;
-
+            
             while ((input = Console.ReadLine()) != "Clone them!")
             {
-                string[] sequence = input.Split("!");
+                string[] sequence = input.Split("!", StringSplitOptions.RemoveEmptyEntries);
                 int count = 0;
                 int sum = 0;
 
@@ -25,7 +28,7 @@
                     bestSequence = sequence;
                 }
 
-                for (int i = sequence.Length - 1; i >= 0; i--)
+                for (int i = sequences - 1; i >= 0; i--)
                 {
                     if (sequence[i] == "1")
                     {
