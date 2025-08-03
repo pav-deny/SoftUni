@@ -7,60 +7,69 @@ namespace _04.StarEnigma
     {
         static void Main(string[] args)
         {
-            string pattern = @"[STARstar]";
+            List<Message> messages = new();
 
-            List<string> attackedPlanets = new();
-            List<string> destroyedPlanets = new();
+            string starPattern = @"[STARstar]";
+            int messagesCount = int.Parse(Console.ReadLine());
 
-            int count = int.Parse(Console.ReadLine());
-
-            for (int i = 0; i < count; i++)
+            for (int i = 0; i < messagesCount; i++)
             {
-                string encryptedMessage = Console.ReadLine();
-                
-                int matchesCount = Regex.Matches(encryptedMessage, pattern).Count;
+                string encryptedMSG = Console.ReadLine();
 
-                if (matchesCount > 0)
-                { 
-                    StringBuilder decryptedMessage = new();
+                int matchesCount = Regex.Matches(encryptedMSG, starPattern).Count;
 
-                    foreach (char c in encryptedMessage)
-                    {
-                        char decryptedChar = (char)(c - matchesCount);
+                StringBuilder decryptedMSG = new();
 
-                        decryptedMessage.Append(decryptedChar);
-                    }
+                foreach (char c in encryptedMSG)
+                {
+                    char decryptedChar = (char)(c - matchesCount);
+                    decryptedMSG.Append(decryptedChar);
+                }
 
-                    string decryptedMessageSTR = decryptedMessage.ToString();
+                string decryptedMSGString = decryptedMSG.ToString();
 
-                    string infoPattern = @"\@(?<Planet>[A-Za-z]+)[^\@\-\!\:\>]*\:(?<Population>\d+)[^\@\-\!\:\>]*\!(?<Type>A|D)\![^\@\-\!\:\>]*\-\>[^\@\-\!\:\>]*?(?<Soldiers>\d+)[^\@\-\!\:\>]*";
+                string infoPattern = @"\@(?<Planet>[A-Za-z]+)[^\@\-\!\:\>]*\:(?<Population>[0-9]+)[^\@\-\!\:\>]*\!(?<Type>[AD])\![^\@\-\!\:\>]*\-\>(?<Soldiers>[0-9]+)";
 
-                    Match match = Regex.Match(decryptedMessageSTR, infoPattern);
+                Match infoMatch = Regex.Match(decryptedMSGString, infoPattern);
 
-                    if (match.Success)
-                    {
-                        switch (match.Groups["Type"].Value)
-                        {
-                            case "A":
-                                attackedPlanets.Add(match.Groups["Planet"].Value);
-                                break;
+                if (infoMatch.Success)
+                {
+                    string planetName = infoMatch.Groups["Planet"].Value;
+                    int population = int.Parse(infoMatch.Groups["Population"].Value);
+                    string attackType = infoMatch.Groups["Type"].Value;
+                    int soldiersCount = int.Parse(infoMatch.Groups["Soldiers"].Value);
 
-                            case "D":
-                                destroyedPlanets.Add(match.Groups["Planet"].Value);
-                                break;
-                        }
-                    }
+                    Message message = new(planetName, population, attackType, soldiersCount);
+
+                    messages.Add(message);
                 }
             }
 
-            attackedPlanets.Sort();
-            destroyedPlanets.Sort();
+            List<Message> groupedMessages = messages.Where(m => m.AttackType == "A").OrderBy(m => m.PlanetName).ToList();
 
-            Console.WriteLine($"Attacked planets: {attackedPlanets.Count}");
-            attackedPlanets.ForEach(x => Console.WriteLine($"-> {x}"));
+            Console.WriteLine($"Attacked planets: {groupedMessages.Count}");
+            groupedMessages.ForEach(m => Console.WriteLine($"-> {m.PlanetName}"));
 
-            Console.WriteLine($"Destroyed planets: {destroyedPlanets.Count}");
-            destroyedPlanets.ForEach(x => Console.WriteLine($"-> {x}"));
+            groupedMessages = messages.Where(m => m.AttackType == "D").OrderBy(m => m.PlanetName).ToList();
+
+            Console.WriteLine($"Destroyed planets: {groupedMessages.Count}");
+            groupedMessages.ForEach(m => Console.WriteLine($"-> {m.PlanetName}"));
+        }
+    }
+
+    public class Message
+    {
+        public string PlanetName { get; set; }
+        public int Population { get; set; }
+        public string AttackType { get; set; }
+        public int SoldierCount { get; set; }
+
+        public Message(string planetName, int population, string attackType, int soldierCount)
+        {
+            PlanetName = planetName;
+            Population = population;
+            AttackType = attackType;
+            SoldierCount = soldierCount;
         }
     }
 }

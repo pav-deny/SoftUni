@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularFinalExam", "RegularFinalExam\RegularFinalExam.csproj", "{5BAEAD7D-6505-440B-90E2-4769645AFA11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Hogwarts", "01.Hogwarts\01.Hogwarts.csproj", "{5B5AC4FE-5B4B-4670-89DD-27BDC0001A99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Messagedecrypter", "02.Messagedecrypter\02.Messagedecrypter.csproj", "{C617998C-819A-483F-944A-A9DE7D55EFB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.DegustationParty", "03.DegustationParty\03.DegustationParty.csproj", "{4FD65DE2-AA69-4245-ADD6-52D83217F2A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BAEAD7D-6505-440B-90E2-4769645AFA11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BAEAD7D-6505-440B-90E2-4769645AFA11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BAEAD7D-6505-440B-90E2-4769645AFA11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BAEAD7D-6505-440B-90E2-4769645AFA11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B5AC4FE-5B4B-4670-89DD-27BDC0001A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B5AC4FE-5B4B-4670-89DD-27BDC0001A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B5AC4FE-5B4B-4670-89DD-27BDC0001A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B5AC4FE-5B4B-4670-89DD-27BDC0001A99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C617998C-819A-483F-944A-A9DE7D55EFB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C617998C-819A-483F-944A-A9DE7D55EFB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C617998C-819A-483F-944A-A9DE7D55EFB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C617998C-819A-483F-944A-A9DE7D55EFB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FD65DE2-AA69-4245-ADD6-52D83217F2A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD65DE2-AA69-4245-ADD6-52D83217F2A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD65DE2-AA69-4245-ADD6-52D83217F2A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD65DE2-AA69-4245-ADD6-52D83217F2A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1856647-3A4D-46D4-88B8-8E2B8BB6341A}
+	EndGlobalSection
+EndGlobal
