@@ -16,7 +16,6 @@
             {
                 stack.Push(nums[i]);
             }
-
             
             for (int i = 0; i < popCount; i++)
             {
@@ -26,59 +25,34 @@
             bool isFound = false;
             int min = int.MaxValue;
 
-            
+            foreach (int num in stack)
             {
-                foreach (int num in nums)
+                if (num == x)
                 {
-                    if (num == x)
-                    {
-                        isFound = true;
-                        break;
-                    }
-
-                    else if (num < min)
-                    {
-                        min = num;
-                    }
+                    isFound = true;
+                    break;
                 }
 
-                if (isFound)
+                else if (num < min)
                 {
-                    Console.WriteLine("true");
+                    min = num;
                 }
-                else
-                {
-                    Console.WriteLine(min);
-                }
+            }
+
+            if (isFound)
+            {
+                Console.WriteLine("true");
+            }
+
+            else if (min == int.MaxValue)
+            {
+                Console.WriteLine(0);
             }
 
             else
             {
-                Console.WriteLine(0);
+                Console.WriteLine(min);
             }
-            ////Fix this \/
-            //if (stack.Contains(x))
-            //{
-            //    Console.WriteLine("true");
-            //}
-            //else if (stack.Count == 0)
-            //{
-            //    Console.WriteLine(0);
-            //}
-            //else
-            //{
-            //    int min = int.MaxValue;
-
-            //    foreach (int num in nums)
-            //    {
-            //        if (num < min)
-            //        {
-            //            min = num;
-            //        }
-            //    }
-
-            //    Console.WriteLine(min);
-            //}
         }
     }
 }
