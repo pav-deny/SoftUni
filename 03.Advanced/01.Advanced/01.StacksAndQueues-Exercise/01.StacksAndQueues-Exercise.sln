@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.BalancedParenthesis", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.SimpletextEditor", "09.SimpletextEditor\09.SimpletextEditor.csproj", "{4D219CB4-08D7-470E-998F-AF3C9D26B78B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.KeyRevolver", "11.KeyRevolver\11.KeyRevolver.csproj", "{2E468E8D-4B89-4CF6-A077-3035BCD43C0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.CupsAndBottles", "12.CupsAndBottles\12.CupsAndBottles.csproj", "{42827B55-86D6-4FCE-A50C-CC8C3A13D93C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{4D219CB4-08D7-470E-998F-AF3C9D26B78B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D219CB4-08D7-470E-998F-AF3C9D26B78B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D219CB4-08D7-470E-998F-AF3C9D26B78B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E468E8D-4B89-4CF6-A077-3035BCD43C0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E468E8D-4B89-4CF6-A077-3035BCD43C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E468E8D-4B89-4CF6-A077-3035BCD43C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E468E8D-4B89-4CF6-A077-3035BCD43C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42827B55-86D6-4FCE-A50C-CC8C3A13D93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42827B55-86D6-4FCE-A50C-CC8C3A13D93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42827B55-86D6-4FCE-A50C-CC8C3A13D93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42827B55-86D6-4FCE-A50C-CC8C3A13D93C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
