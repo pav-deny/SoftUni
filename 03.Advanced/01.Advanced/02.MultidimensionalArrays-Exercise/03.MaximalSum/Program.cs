@@ -1,4 +1,4 @@
-﻿using System.Collections.Immutable;
+﻿using System.Data;
 
 namespace _03.MaximalSum
 {
@@ -6,11 +6,10 @@ namespace _03.MaximalSum
     {
         static void Main(string[] args)
         {
-            int[] dimensions = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
-            int rows = dimensions[0], cols = dimensions[1];
+            int[] parameters = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
+            int rows = parameters[0], cols = parameters[1];
 
-            int[][] matrix = new int[rows][];
-            matrix = ReadMatrix(matrix, rows, cols);
+            int[,] matrix = ReadMatrix(rows, cols);
 
             int maxSum = int.MinValue, maxRow = -1, maxCol = -1;
 
@@ -18,46 +17,50 @@ namespace _03.MaximalSum
             {
                 for (int j = 0; j < cols - 2; j++)
                 {
-                    int sum = SumInSubMatrix(matrix, i, j, 3, 3);
-                    
-                    if (sum > maxSum)
+                    int currentSum = (matrix[i, j] + matrix[i, j + 1] + matrix[i, j + 2]) + (matrix[i + 1, j] + matrix[i + 1, j + 1] + matrix[i + 1, j + 2]) + (matrix[i + 2, j] + matrix[i + 2, j + 1] + matrix[i + 2, j + 2]);
+
+                    if (currentSum > maxSum)
                     {
-                        maxSum = sum;
+                        maxSum = currentSum;
                         maxRow = i;
                         maxCol = j;
                     }
                 }
             }
-        }
 
-        static int SumInSubMatrix(int[][] matrix, int row, int col, int height, int width)
-        {
-            int sum = 0;
+            Console.WriteLine($"Sum = {maxSum}");
 
-            for(int i = 0; i < height; i++)
+            for (int i = 0; i < 3; i++)
             {
-                for (int j =0; j < width; j++)
+                for (int j = 0; j < 3; j++)
                 {
-                    sum+= matrix[row + i][col + j];
+                    Console.Write($"{matrix[maxRow + i, maxCol + j]} ");
                 }
+
+                Console.WriteLine();
             }
 
-            return sum;
+            //Console.WriteLine($"{matrix[maxRow, maxCol]} {matrix[maxRow, maxCol + 1]} {matrix[maxRow, maxCol + 2]}");
+            //Console.WriteLine($"{matrix[maxRow + 1, maxCol]} {matrix[maxRow + 1, maxCol + 1]} {matrix[maxRow + 1, maxCol + 2]}");
+            //Console.WriteLine($"{matrix[maxRow + 2, maxCol]} {matrix[maxRow + 2, maxCol + 1]} {matrix[maxRow + 2, maxCol + 2]}");
         }
 
-        static int[][] ReadMatrix(int[][] matrix, int rows, int cols)
+
+        private static int[,] ReadMatrix(int rows, int cols)
         {
+            int[,] matrix = new int[rows, cols];
+
             for (int i = 0; i < rows; i++)
             {
-                matrix[i] = new int[cols];
-
-                int[] input = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
+                int[] currentRow = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
 
                 for (int j = 0; j < cols; j++)
                 {
-                    matrix[i][j] = input[j];
+                    matrix[i, j] = currentRow[j];
                 }
             }
+
+            return matrix;
         }
     }
 }

@@ -4,42 +4,46 @@
     {
         static void Main(string[] args)
         {
-            int[] dimensions = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
+            int[] parameters = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
+            int rows = parameters[0], cols = parameters[1];
 
-            int rows = dimensions[0], cols = dimensions[1];
+            char[,] matrix = new char[rows, cols];
 
-            string[,] matrix = new string[rows, cols];
-            matrix = ReadMatrix(matrix);
 
-            int count = 0;
-            
-            for (int i = 0; i < (rows - 1); i++)
+            for (int i = 0; i < rows; i++)
             {
-                for (int j = 0; j < (cols - 1);  j++)
+                char[] currentRow = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries).Select(char.Parse).ToArray();
+            
+                for (int j = 0; j < cols; j++)
                 {
-                    if (matrix[i, j] == matrix[i, j + 1] && matrix[i, j] == matrix[i + 1, j] && matrix[i, j] == matrix[i + 1, j +1])
+                    matrix[i, j] = currentRow[j];   
+                }
+            }
+
+            int equalSquaresCount = 0;
+
+            for (int i = 0; i < rows - 1; i++)
+            {
+                for (int j = 0; j < cols - 1; j++)
+                {
+                    if (CheckForEqualSquare(matrix, i, j))
                     {
-                        count++;
+                        equalSquaresCount++;
                     }
                 }
             }
 
-            Console.WriteLine(count);
+                Console.WriteLine(equalSquaresCount);
         }
 
-        private static string[,] ReadMatrix(string[,] matrix)
+        private static bool CheckForEqualSquare(char[,] matrix, int row, int col)
         {
-            for (int i = 0; i < matrix.GetLength(0); i++)
+            if (matrix[row, col] == matrix[row, col + 1] && matrix[row, col] == matrix[row + 1, col] && matrix[row, col] == matrix[row + 1, col + 1])
             {
-                string[] input = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries);
-
-                for (int j = 0; j < matrix.GetLength(0); j++)
-                {
-                    matrix[i, j] = input[j];
-                }
+                return true;
             }
 
-            return matrix;
+            return false;
         }
     }
 }
