@@ -19,7 +19,7 @@ namespace PizzaCalories
                 Pizza pizza = new(pizzaName, dough);
 
                 string toppingInput = string.Empty;
-                while((toppingInput = Console.ReadLine()) != "END")
+                while ((toppingInput = Console.ReadLine()) != "END")
                 {
                     string[] toppingTokens = toppingInput.Split();
                     string toppingType = toppingTokens[1];
@@ -32,9 +32,9 @@ namespace PizzaCalories
                 Console.WriteLine(pizza);
             }
             catch (ArgumentException e)
-            { 
-                Console.WriteLine(e.Message); 
+            {
+                Console.WriteLine(e.Message);
             }
-            }
+        }
     }
 }

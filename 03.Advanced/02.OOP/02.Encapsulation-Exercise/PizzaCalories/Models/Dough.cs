@@ -57,7 +57,7 @@
 
         public double Weight
         {
-            get => this.weight;
+            get =>  this.weight;
             private set
             {
                 if (value < 1 || value > 200)
