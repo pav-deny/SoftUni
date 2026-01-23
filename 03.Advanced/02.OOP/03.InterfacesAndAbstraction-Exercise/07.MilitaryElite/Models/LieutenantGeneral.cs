@@ -1,32 +1,42 @@
-﻿using MilitaryElite.Models.Abstract;
-using MilitaryElite.Models.Interfaces;
+﻿using MilitaryElite.Models.Interfaces;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace MilitaryElite.Models
 {
     public class LieutenantGeneral : RegularSoldier, ILieutenantGeneral
     {
-        public LieutenantGeneral(string firstName, string lastName, int id, decimal salary, IReadOnlyCollection<IPrivate> privates) 
-            : base(firstName, lastName, id, salary) 
-        { 
-            this.Privates = privates;
+        private readonly List<IPrivate> privates;
+
+        public IReadOnlyCollection<IPrivate> Privates => privates.AsReadOnly();
+
+        public LieutenantGeneral(int id, string firstName, string lastName, decimal salary)
+            : base(id, firstName, lastName, salary)
+        {
+            privates = new List<IPrivate>();
         }
 
-        public IReadOnlyCollection<IPrivate> Privates {get; private set;}
+        public void AddPrivate(IPrivate privateSoldier)
+        {
+            privates.Add(privateSoldier);
+        }
 
         public override string ToString()
         {
             StringBuilder sb = new();
-            sb.AppendLine($"Name: {FirstName} {LastName} Id: {Id} Salary: {Salary:f2}");
+
+            sb.AppendLine(base.ToString());
             sb.AppendLine("Privates:");
 
-            foreach (IPrivate priv in Privates)
+            foreach (var currentPrivate in Privates)
             {
-                sb.AppendLine($" {priv.ToString()}");
+                sb.AppendLine($"  {currentPrivate.ToString()}");
             }
 
-            return sb.ToString().Trim('\n');
+            return sb.ToString().TrimEnd();
         }
     }
 }

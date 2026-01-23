@@ -1,17 +1,22 @@
 ﻿using MilitaryElite.Models.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace MilitaryElite.Models
 {
-    internal class Repair : IRepair
+    public class Repair : IRepair
     {
+        public string PartName { get; }
+        public int HoursWorked { get; }
+
         public Repair(string partName, int hoursWorked)
         {
             PartName = partName;
             HoursWorked = hoursWorked;
         }
-
-        public string PartName {get; set;}
-        public int HoursWorked {get; set;}
 
         public override string ToString()
         {

@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 
 namespace _00.Demo
 {
-    [Custom =]
     internal class Dog
     {
     }

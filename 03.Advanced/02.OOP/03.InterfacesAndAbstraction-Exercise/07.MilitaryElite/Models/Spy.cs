@@ -1,21 +1,25 @@
-﻿using MilitaryElite.Models.Abstract;
-using MilitaryElite.Models.Interfaces;
+﻿using MilitaryElite.Models.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace MilitaryElite.Models
 {
     public class Spy : Soldier, ISpy
     {
-        public Spy(string firstName, string lastName, int id, int codeNumber) 
-            : base(firstName, lastName, id)
+        public int CodeNumber { get; }
+
+        public Spy(int id, string firstName, string lastName, int codeNumber)
+            : base(id, firstName, lastName)
         {
             CodeNumber = codeNumber;
         }
 
-        public int CodeNumber {get; private set;}
-
         public override string ToString()
         {
-            return $"Name: {FirstName} {LastName} Id: {Id} Code Number: {CodeNumber}";
+            return $"{base.ToString()}\nCode Number: {CodeNumber}";
         }
     }
 }

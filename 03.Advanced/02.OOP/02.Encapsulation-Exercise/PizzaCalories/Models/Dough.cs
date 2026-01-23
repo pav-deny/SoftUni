@@ -37,7 +37,7 @@
             private set
             {
                 if (!flourTypesCalories.ContainsKey(value.ToLower()))
-                    throw new ArgumentException("Invalid type of dough");
+                    throw new ArgumentException("Invalid type of dough.");
 
                 this.flourType = value;
             }
@@ -49,7 +49,7 @@
             private set
             {
                 if (!bakingTechniquesCalories.ContainsKey(value.ToLower()))
-                    throw new ArgumentException("Invalid type of dough");
+                    throw new ArgumentException("Invalid type of dough.");
 
                 this.bakingTechnique = value;
             }

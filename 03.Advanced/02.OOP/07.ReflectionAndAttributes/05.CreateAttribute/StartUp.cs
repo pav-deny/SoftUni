@@ -1,9 +1,9 @@
 ﻿namespace AuthorProblem
 {
-    [Author("Deny")]
+    [Author("Victor")]
     public class StartUp
     {
-        [Author("Microsoft")]
+        [Author("George")]
         static void Main(string[] args)
         {
           

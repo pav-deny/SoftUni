@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="00.Demos/00.Demos.csproj" />
+  <Project Path="01.CommandPattern/01.CommandPattern.csproj" />
+  <Project Path="02.ValidationAttributes/02.ValidationAttributes.csproj" />
+</Solution>

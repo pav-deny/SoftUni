@@ -1,32 +1,38 @@
-﻿using MilitaryElite.Models.Abstract;
-using MilitaryElite.Models.Interfaces;
+﻿using MilitaryElite.Models.Interfaces;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace MilitaryElite.Models
 {
-    internal class Commando : SpecialisedSoldier, ICommando
+    public class Commando : SpecialisedSoldier, ICommando
     {
-        public Commando(string firstName, string lastName, int id, decimal salary, string corps, IReadOnlyCollection<IMission> missions)
-            : base(firstName, lastName, id, salary, corps)
+        private readonly List<IMission> missions;
+        public IReadOnlyCollection<IMission> Missions => missions.AsReadOnly();
+
+        public Commando(int id, string firstName, string lastName, decimal salary, string corps)
+            : base(id, firstName, lastName, salary, corps)
         {
-            Missions = missions;
+            missions = new List<IMission>();
         }
 
-        public IReadOnlyCollection<IMission> Missions { get; private set; }
+        public void AddMission(IMission mission)
+        {
+            missions.Add(mission);
+        }
 
         public override string ToString()
         {
-            StringBuilder sb = new();
-            sb.AppendLine($"Name: {FirstName} {LastName} Id: {Id} Salary: {Salary:f2}\nCorps: {Corps}");
+            var sb = new StringBuilder();
+            sb.AppendLine(base.ToString());
             sb.AppendLine("Missions:");
-
-            foreach (IMission mission in Missions)
+            foreach (var m in missions)
             {
-                sb.AppendLine($" {mission.ToString()}");
+                sb.AppendLine($"  {m}");
             }
-
-            return sb.ToString().Trim('\n');
+            return sb.ToString().TrimEnd();
         }
     }
 }

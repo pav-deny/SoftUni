@@ -1,0 +1,21 @@
+<Solution>
+  <Folder Name="/00.Demo/">
+    <Project Path="../../../../../../OneDrive/Desktop/Deny/C#/SoftUni/03.Advanced/02.OOP/08.UnitTesting-Exercise/00.Demos/00.Demos.csproj" />
+  </Folder>
+  <Folder Name="/01.Database/">
+    <Project Path="01.Database/Database.Tests/Database.Tests.csproj" />
+    <Project Path="01.Database/Database/Database.csproj" />
+  </Folder>
+  <Folder Name="/02.ExtendedDatabase/">
+    <Project Path="02.ExtendedDataBase/DatabaseExtended.Tests/DatabaseExtended.Tests.csproj" />
+    <Project Path="02.ExtendedDataBase/DatabaseExtended/DatabaseExtended.csproj" />
+  </Folder>
+  <Folder Name="/03.CarManager/">
+    <Project Path="03.CarManager/CarManager.Tests/CarManager.Tests.csproj" />
+    <Project Path="03.CarManager/CarManager/CarManager.csproj" />
+  </Folder>
+  <Folder Name="/04.FightingArena/">
+    <Project Path="04.FightingArena/FightingArena.Tests/FightingArena.Tests.csproj" />
+    <Project Path="04.FightingArena/FightingArena/FightingArena.csproj" />
+  </Folder>
+</Solution>

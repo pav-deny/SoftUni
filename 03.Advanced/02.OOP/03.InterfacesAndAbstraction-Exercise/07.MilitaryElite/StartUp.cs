@@ -1,135 +1,133 @@
 ﻿using MilitaryElite.Models;
-using MilitaryElite.Models.Abstract;
 using MilitaryElite.Models.Interfaces;
-using System;
-using System.Collections.Generic;
 
 namespace MilitaryElite
 {
     public class StartUp
     {
-        private static Dictionary<int, ISoldier> soldiersById;
         static void Main(string[] args)
         {
-            soldiersById = new Dictionary<int, ISoldier>();
+            var soldiers = new List<ISoldier>(); // all soldiers
+            var privatesById = new Dictionary<int, IPrivate>(); // for quick lookup when adding to LieutenantGeneral
 
-            string input = string.Empty;
-            while ((input = Console.ReadLine()) != "End")
+            string line;
+            while ((line = Console.ReadLine()) != "End")
             {
-                ProcessInput(input);
-            }
+                var parts = line.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+                var type = parts[0];
 
-            foreach (ISoldier soldier in soldiersById.Values)
-            {
-                Console.WriteLine(soldier);
-            }
-        }
-
-        static void ProcessInput(string input)
-        {
-            ISoldier soldier = null;
-            string[] data = input.Split(" ", StringSplitOptions.RemoveEmptyEntries);
-
-            int id = int.Parse(data[1]);
-            string firstName = data[2], lastName = data[3];
-
-            try
-            {
-                switch (data[0])
+                try
                 {
-                    case "Private":
-                        soldier = GetPrivate(data, firstName, lastName, id);
-                        break;
+                    switch (type)
+                    {
+                        case "Private":
+                            {
+                                int id = int.Parse(parts[1]);
+                                string firstName = parts[2];
+                                string lastName = parts[3];
+                                decimal salary = decimal.Parse(parts[4]);
 
-                    case "LieutenantGeneral":
-                        soldier = GetLieutenantGeneral(data, firstName, lastName, id);
-                        break;
+                                var p = new Private(id, firstName, lastName, salary);
+                                soldiers.Add(p);
+                                privatesById[id] = p;
+                                break;
+                            }
+                        case "LieutenantGeneral":
+                            {
+                                int id = int.Parse(parts[1]);
+                                string firstName = parts[2];
+                                string lastName = parts[3];
+                                decimal salary = decimal.Parse(parts[4]);
 
-                    case "Engineer":
-                        soldier = GetEngineer(data, firstName, lastName, id);
-                        break;
+                                var lg = new LieutenantGeneral(id, firstName, lastName, salary);
 
-                    case "Spy":
-                        soldier = GetSpy(data, firstName, lastName, id);
-                        break;
+                                for (int i = 5; i < parts.Length; i++)
+                                {
+                                    int privateId = int.Parse(parts[i]);
+                                    if (privatesById.ContainsKey(privateId))
+                                    {
+                                        lg.AddPrivate(privatesById[privateId]);
+                                    }
+                                }
 
-                    case "Commando":
-                        soldier = GetCommando(data, firstName, lastName, id);
-                        break;
+                                soldiers.Add(lg);
+                                break;
+                            }
+                        case "Engineer":
+                            {
+                                int id = int.Parse(parts[1]);
+                                string firstName = parts[2];
+                                string lastName = parts[3];
+                                decimal salary = decimal.Parse(parts[4]);
+                                string corps = parts[5];
+
+                                // Corps validation happens in constructor
+                                var eng = new Engineer(id, firstName, lastName, salary, corps);
+
+                                for (int i = 6; i < parts.Length; i += 2)
+                                {
+                                    string partName = parts[i];
+                                    int hoursWorked = int.Parse(parts[i + 1]);
+                                    eng.AddRepair(new Repair(partName, hoursWorked));
+                                }
+
+                                soldiers.Add(eng);
+                                break;
+                            }
+                        case "Commando":
+                            {
+                                int id = int.Parse(parts[1]);
+                                string firstName = parts[2];
+                                string lastName = parts[3];
+                                decimal salary = decimal.Parse(parts[4]);
+                                string corps = parts[5];
+
+                                var comm = new Commando(id, firstName, lastName, salary, corps);
+
+                                for (int i = 6; i < parts.Length; i += 2)
+                                {
+                                    string codeName = parts[i];
+                                    string state = parts[i + 1];
+
+                                    try
+                                    {
+                                        var mission = new Mission(codeName, state);
+                                        comm.AddMission(mission);
+                                    }
+                                    catch
+                                    {
+                                        // skip invalid mission
+                                    }
+                                }
+
+                                soldiers.Add(comm);
+                                break;
+                            }
+                        case "Spy":
+                            {
+                                int id = int.Parse(parts[1]);
+                                string firstName = parts[2];
+                                string lastName = parts[3];
+                                int codeNumber = int.Parse(parts[4]);
+
+                                var spy = new Spy(id, firstName, lastName, codeNumber);
+                                soldiers.Add(spy);
+                                break;
+                            }
+                    }
                 }
-
-                soldiersById.Add(soldier.Id, soldier);
+                catch
+                {
+                    // Skip entire line if invalid (e.g., invalid corps)
+                    continue;
+                }
             }
-            catch (Exception ex) { }
-        }
 
-        static ISoldier GetPrivate(string[] data, string firstName, string lastName, int id)
-        {
-            decimal salary = decimal.Parse(data[4]);
-
-            ISoldier soldier = new Private(firstName, lastName, id, salary);
-
-            return soldier;
-        }
-
-        static ISoldier GetLieutenantGeneral(string[] data, string firstName, string lastName, int id)
-        {
-            decimal salary = decimal.Parse(data[4]);
-
-            List<IPrivate> privates = new();
-
-            for (int i = 5; i < data.Length; i++)
+            // Print all soldiers
+            foreach (var s in soldiers)
             {
-                int soldierId = int.Parse(data[i]);
-                IPrivate @private = (Private)soldiersById[soldierId];
-                privates.Add(@private);
+                Console.WriteLine(s);
             }
-
-            ISoldier soldier = new LieutenantGeneral(firstName, lastName, id, salary, privates);
-
-            return soldier;
-        }
-
-        static ISoldier GetEngineer(string[] data, string firstName, string lastName, int id)
-        {
-            decimal salary = decimal.Parse(data[4]);
-            string corps = data[5];
-
-            List<IRepair> repairs = new();
-
-            for (int i = 6; i < data.Length; i += 2)
-            {
-                Repair repair = new(data[i], int.Parse(data[i + 1]));
-                repairs.Add(repair);
-            }
-
-            ISoldier soldier = new Engineer(firstName, lastName, id, salary, corps, repairs);
-            return soldier;
-        }
-
-        static ISoldier GetCommando(string[] data, string firstName, string lastName, int id)
-        {
-            decimal salary = decimal.Parse(data[4]);
-            string corps = data[5];
-
-            List<IMission> missions = new();
-
-            for (int i = 6; i < data.Length; i += 2)
-            {
-                Mission mission = new(data[i], data[i + 1]);
-                missions.Add(mission);
-            }
-
-            ISoldier soldier = new Commando(firstName, lastName, id, salary, corps, missions);
-            return soldier;
-        }
-
-        static ISoldier GetSpy(string[] data, string firstName, string lastName, int id)
-        {
-            int codeNumber = int.Parse(data[4]);
-
-            ISoldier soldier = new Spy(firstName, lastName, id, codeNumber);
-            return soldier;
         }
     }
 }

@@ -1,32 +1,38 @@
-﻿using MilitaryElite.Models.Abstract;
-using MilitaryElite.Models.Interfaces;
+﻿using MilitaryElite.Models.Interfaces;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace MilitaryElite.Models
 {
     public class Engineer : SpecialisedSoldier, IEngineer
     {
-        public Engineer(string firstName, string lastName, int id, decimal salary, string corps, IReadOnlyCollection<IRepair> repairs) 
-            : base(firstName, lastName, id, salary, corps)
+        private readonly List<IRepair> repairs;
+        public IReadOnlyCollection<IRepair> Repairs => repairs.AsReadOnly();
+
+        public Engineer(int id, string firstName, string lastName, decimal salary, string corps)
+            : base(id, firstName, lastName, salary, corps)
         {
-            Repairs = repairs;
+            repairs = new List<IRepair>();
         }
 
-        public IReadOnlyCollection<IRepair> Repairs {get; private set;}
+        public void AddRepair(IRepair repair)
+        {
+            repairs.Add(repair);
+        }
 
         public override string ToString()
         {
-            StringBuilder sb = new();
-            sb.AppendLine($"Name: {FirstName} {LastName} Id: {Id} Salary: {Salary:f2}\nCorps: {Corps}");
+            var sb = new StringBuilder();
+            sb.AppendLine(base.ToString());
             sb.AppendLine("Repairs:");
-
-            foreach (IRepair repair in Repairs)
+            foreach (var r in repairs)
             {
-                sb.AppendLine($" {repair.ToString()}");
+                sb.AppendLine($"  {r}");
             }
-
-            return sb.ToString().Trim('\n');
+            return sb.ToString().TrimEnd();
         }
     }
 }

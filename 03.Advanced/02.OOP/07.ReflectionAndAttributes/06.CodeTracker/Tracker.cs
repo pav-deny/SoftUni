@@ -31,6 +31,24 @@ namespace AuthorProblem
                     }
                 }
             }
+
+            ////Second way
+            
+            //Type[] allTypes = typeof(Tracker).Assembly.GetTypes();
+
+            //foreach (Type type in allTypes)
+            //{
+            //    var methods = type.GetMethods(BindingFlags.Static | BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic);
+
+            //    foreach (var method in methods)
+            //    {
+            //        var authorAttribute = method.GetCustomAttributes<AuthorAttribute>()
+            //            .Select(attr => attr.Name).ToList();
+
+            //        if (authorAttribute.Any())
+            //        Console.WriteLine($"{method.Name} is written by {string.Join(", " , authorAttribute)}");
+            //    }
+            //}
         }
     }
 }

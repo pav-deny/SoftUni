@@ -1,16 +1,19 @@
-﻿using MilitaryElite.Models.Abstract;
-using MilitaryElite.Models.Interfaces;
+﻿using MilitaryElite.Models.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace MilitaryElite.Models
 {
     public class Private : RegularSoldier, IPrivate
     {
-        public Private(string firstName, string lastName, int id, decimal salary)
-            : base(firstName, lastName, id, salary) { }
-
-        public override string ToString()
+        public Private(int id, string firstName, string lastName, decimal salary)
+            : base(id, firstName, lastName, salary)
         {
-            return $"Name: {FirstName} {LastName} Id: {Id} Salary: {Salary:f2}";
         }
+
+        // ToString() already handled in RegularSoldier
     }
 }
