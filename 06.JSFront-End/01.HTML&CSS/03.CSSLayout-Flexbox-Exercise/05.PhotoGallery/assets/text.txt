@@ -1,0 +1,9 @@
+<section class="image"><img src="./assets/images/image1.jpg" alt="mountain"></section>
+        <section class="image"><img src="./assets/images/image2.jpg" alt="tulips"></section>
+        <section class="image"><img src="./assets/images/image3.jpg" alt="flowers"></section>
+        <section class="image"><img src="./assets/images/image4.jpg" alt="lake in mountain"></section>
+        <section class="image"><img src="./assets/images/image5.jpg" alt="space"></section>
+        <section class="image"><img src="./assets/images/image6.jpg" alt="tree"></section>
+        <section class="image"><img src="./assets/images/image7.jpg" alt="sea shore"></section>
+        <section class="image"><img src="./assets/images/image8.jpg" alt="plane view"></section>
+        <section class="image"><img src="./assets/images/image9.jpg" alt="skyscrapers"></section>                    

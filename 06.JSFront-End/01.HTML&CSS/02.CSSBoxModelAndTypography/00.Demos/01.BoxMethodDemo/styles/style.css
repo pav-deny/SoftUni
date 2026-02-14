@@ -1,0 +1,58 @@
+p {
+    background-color: red;
+    width: 300px;
+    height: 100px;
+
+    border: 2px dashed blue;
+    margin: 50px;
+    padding: 12px 24px;
+}
+
+span {
+    background-color: orange;
+    width: 300px; /* doesnt work because span is an inline element*/
+    height: 100px;
+
+    border: 2px dashed blue;
+    margin: 20px;
+    padding: 5px 10px;
+}
+
+div {
+    background-color: green;
+    display: inline-block;
+    width: 120px; /* work because inline-block elements work like inline elements but can have
+    a set width and height like block elements*/
+
+    border: 2px dashed blue;
+    margin: 20px;
+    padding: 5px 10px;
+}
+
+a {
+    display: block;
+}
+
+.first-box,
+.second-box,
+.third-box{
+    display: block;
+    padding: 12px;
+    border: 5px solid red;
+    background-color: orange;
+    font-size: 20px;
+}
+
+.first-box {
+    box-sizing: content-box;
+    width: 300px;
+}
+
+.second-box {
+    box-sizing: border-box;
+    width: 300px;
+}
+
+.third-box {
+    width: 300px;
+}

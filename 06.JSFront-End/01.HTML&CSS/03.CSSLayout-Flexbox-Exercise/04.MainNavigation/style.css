@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 95%;
+    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+
+    background-color: rgb(238, 238, 238);
+    border: 1px rgb(204, 204, 204) solid;
+    padding: 20px;
+    border-radius: 5px;
+
+    box-shadow: 0 0 20px rgb(200, 200, 200);
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+
+    padding: 10px 15px;
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(204, 204, 204) solid;
+    color: rgb(255, 140, 0);
+    border-radius: 5px;
+}
+
+a:hover { 
+    background-color: rgb(48, 93, 153);
+    color: white;
+}

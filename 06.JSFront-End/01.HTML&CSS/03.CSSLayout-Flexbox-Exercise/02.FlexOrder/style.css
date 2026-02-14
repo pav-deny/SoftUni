@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: rgb(238, 238, 238);
+}
+
+.site-layout {
+    margin: 50px;
+    padding: 20px 40px;
+    width: 90%;
+
+    box-shadow: 0 4px 8px 0 rgb(220, 220, 220);
+    border-radius: 5px;
+    background-color: white;
+}
+
+.box-layout {
+    border: 1px rgb(170, 170, 170) solid;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+header, footer, div {
+    margin: 20px 0;
+}
+
+.main-and-sidebar {
+    display: flex;
+    gap: 10px;
+}
+
+.left-sidebar .main-and-sidebar {   
+    flex-direction: row-reverse;
+}
+
+main {
+    width: 70%;
+}
+
+aside {
+    width: 30%;
+}

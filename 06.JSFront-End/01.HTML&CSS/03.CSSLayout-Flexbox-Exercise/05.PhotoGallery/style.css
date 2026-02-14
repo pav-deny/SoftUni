@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 45px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    border: 8px black solid;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+
+    width: 300px;
+    height: 500px;
+
+    background-color: white;
+    box-shadow: 0 0 10px rgb(133, 133, 133);
+    border-radius: 5px;
+}
+
+img {
+    width: 20rem;
+    box-shadow: 0 0 10px rgb(196, 196, 196);
+}
+
+.card p {
+    position: absolute;
+    padding-left: 10px;
+    bottom: 0;
+    left: 0;
+
+    color: rgb(146, 146, 146);
+}
+
+footer p {
+    text-align: center;
+    color: rgb(126, 126, 126);;
+}

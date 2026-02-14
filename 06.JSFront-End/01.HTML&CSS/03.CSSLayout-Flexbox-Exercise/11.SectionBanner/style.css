@@ -1,0 +1,65 @@
+body {
+    background-color:  rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    width: 58%;
+    align-items: center;
+    padding: 30px 30px 30px 30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(217, 217, 217);
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.text {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.company-name {
+    color: rgb(136, 136, 136);
+    margin: 0;
+}
+
+.buttons > button {
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.buttons > button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.chat {
+    background-color: rgb(102, 51, 153);
+    color: white;
+}
+
+.more {
+    background-color: rgb(238, 238, 238);
+    color: black;
+}
+
+
+.image {
+    width: 70em;
+    height: 12em;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 5px;
+}
+
+img {
+    width: 323px;
+    height: inherit;
+    border-radius: 5px;
+}

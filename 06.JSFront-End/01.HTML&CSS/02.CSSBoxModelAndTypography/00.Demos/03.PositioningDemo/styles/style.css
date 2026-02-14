@@ -1,0 +1,95 @@
+.cups img {
+    width: 300px;
+}
+
+.promos {
+    display: inline-block;
+    position: relative;
+    margin: 50px;
+}
+
+.ai-chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10000;
+}
+
+.sticky {
+    background-color: salmon;
+    padding: 6px;
+    position: sticky;
+    top: 50px;
+}
+
+p {
+    margin-top: 30px;
+}
+
+.promos img.sticker {
+    width: 100px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+
+.positioning {
+    max-height:300px;
+    overflow: scroll;
+}
+
+.positioning {
+    border: 2px dashed blue;
+    position: relative;
+}
+
+.positioning .container {
+    position: relative;
+    z-index: 2;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 2rem;
+    position: absolute;
+    z-index: 5;
+}
+
+.item1{
+    background-color: red;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+
+.item2{
+    background-color: orange;
+    top: 10px;
+    left: 10px;
+}
+
+.item3{
+    background-color: yellow;
+    top: 20px;
+    left: 20px;
+}
+
+.item4{
+    background-color: green;
+    top: 30px;
+    left: 30px;
+}
+
+.item5{
+    background-color: blue;
+    top: 40px;
+    left: 40px;
+}
+
+.item6{
+    background-color: purple;
+    top: 50px;
+    left: 50px;
+}

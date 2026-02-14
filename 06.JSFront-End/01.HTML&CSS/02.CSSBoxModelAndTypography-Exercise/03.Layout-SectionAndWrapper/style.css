@@ -1,0 +1,24 @@
+main {
+    border: 2px solid green;
+    padding: 5px 5px 0px 5px;
+}
+
+section {
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px 50px;
+}
+
+article {
+    border: 2px solid blue;
+    padding: 20px;
+}
+
+section:last-of-type {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+article:last-of-type {
+    margin-bottom: 1px;
+}

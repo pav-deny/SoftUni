@@ -1,0 +1,37 @@
+body {
+    font-size: 16px;
+    font-family: "Lato", "sans-serif";
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+details {
+    border: 2px solid lightgray;
+    padding: 20px;
+}
+
+section {
+    margin: 20px 25%;
+}
+
+summary {
+    list-style: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+details summary::before {
+    content: ">";
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+details[open] summary::before {
+    content: "v";
+}

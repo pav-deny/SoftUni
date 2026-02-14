@@ -1,0 +1,65 @@
+details {
+    position: relative;
+}
+
+details.main[open]::before {
+    content: "";
+    position: absolute;
+    left: 13px;
+    top: 26px; 
+    width: 5px;
+    height: 100%;
+    background-color: rgb(221, 221, 221);
+}
+
+details.secondary[open]::after {
+    content: "";
+    position: absolute;
+    left: -30px;  /* connects to parent line */
+    top: 20px;    /* vertically aligned with summary */
+    width: 30px;
+    height: 2px;
+    background-color: rgb(221,221,221);
+}
+
+details.secondary[open]::before {
+    content: "";
+    position: absolute;
+    left: 43px;
+    top: 26px; 
+    width: 5px;
+    height: 100%;
+    background-color: rgb(221, 221, 221);
+}
+
+
+summary {
+    list-style: none;
+}
+
+summary::before {
+    content: "+";
+    margin-right: 5px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: rgb(102, 153, 102);
+    color: white;
+    padding: 5px 10px;
+}
+
+details[open] > summary:before
+{
+    content: "-";
+    padding: 5px 12px;
+}
+
+.secondary summary {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+p {
+    margin-left: 90px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

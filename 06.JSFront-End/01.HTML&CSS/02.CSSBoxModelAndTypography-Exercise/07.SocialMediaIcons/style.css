@@ -1,0 +1,21 @@
+body {
+    font-family: "Lato", "sans-serif";
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+    font-size: 18px;
+    color: black;
+    border: 2px solid #ebebeb;
+    padding: 10px;
+    margin: 0 1px;
+    background-color: #ebebeb;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

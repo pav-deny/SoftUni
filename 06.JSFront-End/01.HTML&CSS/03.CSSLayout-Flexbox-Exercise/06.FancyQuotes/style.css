@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: 'Fredoka', sans-serif;
+    font-size: 18px;
+}
+
+.quote {
+    font-size: 200px;
+    position: absolute;
+    top: 0;
+    margin-left: 40px;
+}
+
+.card {
+    position: relative;
+    border: 1px lightgray solid;
+    border-radius: 5px;
+    display: flex;
+    margin: 20px;
+    
+    background-color: white;
+    box-shadow: 0 0 20px rgb(167, 167, 167);
+}
+
+.horizontal .card {
+    height: 300px;
+    align-items: center;
+}
+
+.vertical .card {
+    flex-direction: column;
+    height: 624px;
+}
+
+.image {    
+    border-radius: 50%;
+    background-color: green;
+    border: 5px white solid;
+    box-shadow: 0 0 10px rgb(119, 119, 119);
+}
+
+.horizontal .image {
+    width: 200px;
+    height: 200px;
+}
+
+.vertical .image {
+    width: 150px;
+    height: 150px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.horizontal p {
+    margin: 50px 10px 40px 10px;
+}
+
+.horizontal blockquote{
+    width: 60%;
+}
+
+footer {
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.horizontal{
+    width: 50%;
+}
+
+.vertical {
+    width: 30%;
+}
+
+.vertical p {
+    margin: 100px 0 40px 10px;
+    width: 100%;
+}

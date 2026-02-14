@@ -1,0 +1,83 @@
+/* CSS SETUP */
+
+.container {
+    list-style: none;
+    padding: 1rem;
+    background-color: lightgray;
+    border: 3px dashed black;
+}
+
+.item {
+    font-size: 2rem;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.item:nth-child(1) {
+    background-color: #fed96b;
+}
+
+.item:nth-child(2) {
+    background-color: #feb468;
+}
+
+.item:nth-child(3) {
+    background-color: #a1e5a4;
+}
+
+.item:nth-child(4) {
+    background-color: #6fd4f5;
+}
+
+.item:nth-child(5) {
+    background-color: #ff9aa4;
+}
+
+.item:nth-child(6) {
+    background-color: #fffad0;
+}
+
+/* FLEX PARENT */
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px 50px;
+    /* align-content: space-evenly; */
+    /* width: 400px;
+    height: 500px; */
+}
+
+.item:nth-child(1) {
+    flex: 0 1 auto;
+    /*Flex grow of 0, shrink of 1 and basis of auto*/
+    align-self: flex-start;
+}
+
+.item:nth-child(2) {
+    padding: 3rem;
+    order: 10;
+    flex-shrink: 3;
+}
+
+.item:nth-child(3) {
+    flex-shrink: 0;
+    width: 200px;
+}
+
+.item:nth-child(4) {
+    padding: 5rem 1rem;
+    order: 20;
+}
+
+.item:nth-child(5) {
+    order: -1;
+    flex-basis: 200px;
+    align-self: flex-end;
+}  
+
+.item:nth-child(6) {
+    flex-grow: 2;
+}

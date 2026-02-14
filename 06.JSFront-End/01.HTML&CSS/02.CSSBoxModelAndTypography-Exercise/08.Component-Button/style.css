@@ -1,0 +1,38 @@
+.button {
+    padding: 1em 1.5em;
+    text-align: center;
+    background-color: #ddd;
+    border-radius: 0.3em;
+    text-decoration: none;
+    border: 2px solid #d6d6d6;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Lato", "sans-serif";
+    color: black;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.button:focus, .button:hover {
+    color: white;
+    background-color: black;
+    border-color: rgb(39, 39, 39);
+}
+
+.primary {
+    background-color: orange;
+    border-color: rgb(238, 155, 0);
+}
+
+.secondary {
+    background-color: lightgoldenrodyellow;
+    border-color: rgb(226, 226, 189);
+}
+
+.outline {
+    background-color: white;
+}
