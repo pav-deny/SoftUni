@@ -1,0 +1,16 @@
+.table {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+}
+
+.item {
+    margin-right: 10rem;
+}
+
+.item-2 {
+    margin-right: 16.3rem;
+}
