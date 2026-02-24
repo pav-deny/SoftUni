@@ -1,0 +1,98 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238,238,238);
+    justify-content: center;
+    align-items: center;
+}
+
+.registrate {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.registrate-form {
+    width: 25em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(217, 217, 217);
+    background-color: white;
+    padding: 30px;
+}
+
+.registrate-text {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.registrate-btn {
+    width: 102.3%;
+    padding: 15px 20px;
+    background-color: rgb(239, 239, 239);
+    /* color: black; */
+    font-size: 0.98em;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 10px;
+    align-self: center;
+    transition: transform 0.2s ease-in;
+}
+
+.registrate-btn:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transition: transform 0.2s ease-out;
+    transform: scale(1.03);
+}
+
+.ctr {
+    position: relative;
+    padding-bottom: 0.2em;
+}
+
+#email, #password, #birth-date {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    margin-bottom: 0;
+}
+
+#email, #password{
+    height: 0.7em;
+    /* border-radius: 2px; */
+}
+
+#birth-date {
+    height: 2em;
+    margin-top: 10px;
+}
+
+#birth-date:hover {
+    cursor:text;
+}
+
+span {
+    font-size: 10px;
+    color: rgb(119, 119, 119);
+    font-style: italic;
+    padding: 0;
+    margin-top: 0;
+}
+
+.secondary {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: 2px solid rgb(221, 221, 221);
+}

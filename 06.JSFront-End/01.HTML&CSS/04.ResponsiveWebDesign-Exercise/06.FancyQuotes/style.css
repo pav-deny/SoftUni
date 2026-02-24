@@ -1,0 +1,140 @@
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: rgb(238, 238, 238);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 90vh;
+    }
+
+    i {
+        font-size: 60px;
+        margin-bottom: 0;
+    }
+
+    .all-cards {
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+    }
+
+    .cards {
+        max-width: 60%;
+    }
+
+    .vertical {
+        max-width: 28%;
+    }
+
+    .horizontal {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .card {
+        display: flex;
+        border-radius: 3px;
+        background-color: white;
+        box-shadow: 0 0 10px rgb(217, 217, 217);
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        /* width: 45em; */
+    }
+
+    .vertical > .card {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        height: 100%;
+        padding: 40px;
+        /* width: 20em; */
+    }
+
+    .vertical > .card > .img-ctr > img {
+        width: 8em;
+    }
+
+    .quote {
+        display: flex; 
+        flex-direction: column;
+        margin-top: 20px;
+        /* width: 47%; */
+    }
+
+    .q3 {
+        margin: 0;
+        margin-top: 20px;
+        /* width: 80%; */
+    }
+
+    .quote-text {
+        margin: 0;
+        margin-top: 10px;
+        color: rgb(119, 119, 119);
+    }
+
+    img {
+        width: 10em;
+        height: auto;
+        border-radius: 100%;
+        border: 5px solid white;
+        box-shadow: 0 0 10px rgb(217, 217, 217);
+    }
+
+    .author {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+
+@media screen and (max-width: 750px) {
+    .all-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards {
+        width: 90%;
+    }
+
+    .card {
+        gap: 3px;
+    }
+    
+    .vertical > .card {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .q3 {
+        margin: 20px 40px;
+    }
+
+    .vertical > .card > .img-ctr > img,  img {
+        width: 8em;
+    }
+
+    .quote {
+        margin: 0px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .card, .vertical > .card {
+        flex-direction: column;
+    }
+
+    .vertical > .card > .img-ctr > img,  img {
+        width: 100%;
+    }
+}
+        

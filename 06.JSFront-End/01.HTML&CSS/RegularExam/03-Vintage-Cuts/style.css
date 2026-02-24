@@ -1,0 +1,281 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+
+html, body, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    background-color: black;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.links > a {
+    text-decoration: none;
+    color: white;
+}
+
+.links > a::after {
+    content: "|";
+    margin: 0 15px;
+}
+
+.links > a:last-child::after {
+    display: none;
+}
+.social-media {
+
+    color: white;
+    text-align: center;
+}
+
+.social-media > i {
+    margin-right: 25px;
+}
+
+.social-media > i:last-child {
+    margin: 0;
+}
+
+.social-media > i:hover {
+    cursor: pointer;
+}
+
+nav {
+    /* border: 1px solid red; */
+    display: flex;
+    background-color: white;
+    position: absolute;
+    bottom: -42px;
+    /* left: 31em; */
+    left: 300px;
+    right: 300px;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50px;
+}
+
+.navigation {
+    display: flex;
+    gap: 50px;
+}
+
+.navigation > li > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.logo .red {
+    color: rgb(233, 85, 27);
+}
+
+.banner {
+    background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("./images/carousel-1.jpg");
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1280px;
+    color: white;
+    text-align: center;
+
+    border-bottom: 10px solid rgb(170, 172, 178);
+}
+
+.banner > h3 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.banner > h2 {
+    font-size: 6em;
+    width: 50%;
+}
+
+.learn-more-btn {
+    background-color: black;
+    padding: 15px 30px;
+    border-radius: 50px;
+    
+    text-decoration: none;
+    color: white;
+
+    margin-top: 20px;
+}
+
+.info {
+    background-color: rgb(226, 242, 208);   
+    padding: 100px;
+}
+
+.info > h2 {
+    font-size: 2.5em;
+    text-align: center;
+    color: rgb(85, 85, 85);
+    margin-bottom: 20px;
+}
+
+.info-text {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 20px;
+}
+
+img {
+    width: 100%;
+    border-radius: inherit;
+}
+
+.info > hr {
+    border: 2px solid black;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.about-img-ctr {
+    width: 25em;
+    border-radius: 5px;
+    /* flex: 0.8; */
+}
+
+.text-section {
+    width: fit-content;
+}
+
+.text-section > h3 {
+    font-size: 1.7em;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    color: rgb(82, 83, 84)
+}
+
+.features-list, .about-us > p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: rgb(103, 119, 132);
+    font-weight: bold;
+    /* font-size: 1.2em; */
+}
+
+.desc {
+    margin-bottom: 20px;
+    color: rgb(49, 49, 49);
+}
+
+.orange-lm-btn {
+    background-color: rgb(233, 85, 27);
+}
+
+.features-list > li {
+    margin-bottom: 20px;
+}
+
+.checkmark {
+    color: rgb(233, 85, 27);
+    margin-right: 10px;
+}
+
+footer {
+    padding: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer > .logo {
+    margin-bottom: 20px;
+}
+
+.footer-social-media > i {
+    border: 3px solid rgb(176, 225, 243);
+    padding: 10px 12px;
+    border-radius: 100%;
+    color: rgb(233, 85, 27);
+    text-align: center;
+    margin-right:3px;
+}
+
+.footer-social-media > i:hover {
+    cursor: pointer;
+}
+
+.footer-social-media {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.information {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: rgb(83, 85, 83);
+    margin-bottom: 20px;
+}
+
+.vl {
+    margin: 0 10px;
+    border: 0.1px solid rgb(80, 80, 80);
+    height: 80px;
+}
+
+.information > div:first-child {
+    text-align: end;
+}
+
+.information > div:last-child {
+    text-align: start;
+}
+
+.info-div {
+    width: 25%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+footer > p {
+    font-weight: normal;
+}
+
+.about-us h3 {
+    width: fit-content;
+}
+
+.about-us, .our-features {
+    flex: 0.3;
+}
+
+.our-features {
+    flex: 0.3;
+}

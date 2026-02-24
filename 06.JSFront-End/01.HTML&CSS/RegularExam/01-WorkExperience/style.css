@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css2?family=Margarine&display=swap);
+
+html, body, * {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 240, 228);
+    font-family: 'Margarine';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 40vh; */
+    margin: 0;
+    padding: 0;
+}
+
+i {
+    color: rgb(41, 145, 230);
+    margin-right: 20px;
+}
+
+h2, h3 {
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h2.title {
+    text-align: center;
+}
+
+h2.name {
+    margin-top: 0;
+}
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+    margin: 100px auto;
+    max-width: 1250px;
+}
+
+.card {
+    box-shadow: 0 5px 20px rgb(68, 68, 68);
+    padding: 30px;
+}
+
+.left {
+    width: 35%;
+    padding: 15px 20px;
+}
+
+.right{
+    width: 65%;
+}
+
+.experience-chart {
+    background-color: rgb(41, 145, 230);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.percent90 {
+    width: 90%;
+}
+
+.percent80 {
+    width: 80%;
+}
+
+.percent75 {
+    width: 75%;
+}
+
+.percent50 {
+    width: 50%;
+    margin-bottom: 10px; /*Change later if needed*/
+}
+
+h3 {
+    color: rgb(109, 102, 97);
+}
+
+.work-experience > .time {
+    color: rgb(41, 145, 230);
+}
