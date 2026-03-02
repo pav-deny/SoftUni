@@ -3,3 +3,5 @@ function solve(m, n) {
         console.log(i);
     }
 }
+
+solve(10, 1);
