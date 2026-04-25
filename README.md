@@ -1,5 +1,5 @@
 
-# 📂 SoftUni
+# 📂 SoftUni Repository
 This repository holds all my code from the SoftUni courses
 
 ## 📆 The repository has code from SoftUni's:
