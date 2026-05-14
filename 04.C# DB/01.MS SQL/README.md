@@ -1,0 +1,1 @@
+Due to the nature of SSMS and Databases in general this folder holds only the query files and no project files
