@@ -4,13 +4,16 @@ This repository holds all my code from the SoftUni courses
 
 ## 📆 The repository has code from SoftUni's:
 - ##### C# Programming Basics course (January 2025)
-- C# Fundamentals course (May 2025)
-- C# Advanced Module (September 2025):
+- ##### C# Fundamentals course (May 2025)
+- ##### C# Advanced module (September 2025):
     - C# Advanced course
     - C# OOP course
-- JS Front-End module (January 2026):
+- ##### JS Front-End module (January 2026):
     - HTML & CSS course
     - JS Front-End course
+- ##### C# DB module (May 2026):
+    - MS SQL course
+    - Entity Framework Core course
 
 
 ## 🔗 Acknowledgements
