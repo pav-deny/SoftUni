@@ -1,0 +1,1 @@
+select `last_name`, `age`, `grade` from `students`
