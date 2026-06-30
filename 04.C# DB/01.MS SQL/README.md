@@ -1,1 +1,2 @@
-Due to the nature of SSMS and Databases in general this folder holds only the query files and no project files
+Because of how SSMS and databases work, this folder contains only query files and no project files
+

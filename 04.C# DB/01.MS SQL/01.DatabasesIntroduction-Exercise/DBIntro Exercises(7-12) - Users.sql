@@ -1,6 +1,29 @@
 --01.Database Introduction - Exercise (7-12)
 GO
 --Exercise 07: Create Table People
+CREATE TABLE [People] (
+	[Id] INT PRIMARY KEY IDENTITY,
+	[Name] VARCHAr(200) NOT NULL,
+	[Picture] VARBINARY(max),
+	CHECK(LEN([Picture]) <= 2097152), --size up to 2MB (or 2 097 152B),
+	[Height] DECIMAL(4,2),
+	[Weight] DECIMAL(5,2),
+	[Gender] CHAR(1) NOT NULL,
+	[Birthdate] DATE NOT NULL,
+	[Biography] NVARCHAR(max)
+)
+
+GO
+
+--Made by ChatGPT
+INSERT INTO [People] ([Name], [Picture], [Height], [Weight], [Gender], [Birthdate], [Biography])
+VALUES
+('Ivan Petrov', NULL, 1.82, 78.50, 'm', '1998-05-12', 'Software developer from Sofia.'),
+('Maria Georgieva', NULL, 1.68, 55.20, 'f', '2001-11-03', 'Student and fitness enthusiast.'),
+('Georgi Ivanov', NULL, 1.90, 88.10, 'm', '1995-02-20', 'Engineer working in robotics.'),
+('Elena Dimitrova', NULL, 1.72, 62.30, 'f', '1999-07-15', 'Graphic designer and artist.'),
+('Nikolay Stefanov', NULL, 1.75, 80.00, 'm', '1997-09-30', 'IT consultant and gamer.');
+
 GO
 --Exercise 08: Create Table Users
 CREATE TABLE [Users] (

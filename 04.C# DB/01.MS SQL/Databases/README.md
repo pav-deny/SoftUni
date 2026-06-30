@@ -1,0 +1,1 @@
+This folder contains the databases setups given by the course. The folder names show in which lesson they were put up as resources. 
