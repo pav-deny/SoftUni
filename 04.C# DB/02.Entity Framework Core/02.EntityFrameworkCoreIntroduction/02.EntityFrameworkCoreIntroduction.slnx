@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="02.CodeFirst.Data/02.CodeFirst.Data.csproj" Id="dc72fbb6-73ff-4831-af5b-24cb95c2103c" />
+  <Project Path="CodeFirst/02.CodeFirst.csproj" Id="244b7453-5a5b-4b1b-8c95-5e0756882038" />
+  <Project Path="Demo1/01.Demo1.csproj" />
+</Solution>

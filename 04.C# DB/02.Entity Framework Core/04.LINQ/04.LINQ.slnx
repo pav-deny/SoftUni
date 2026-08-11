@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Blog.Data/Blog.Data.csproj" />
+  <Project Path="Blog/Blog.csproj" />
+  <Project Path="Demo/Demo.csproj" />
+</Solution>
