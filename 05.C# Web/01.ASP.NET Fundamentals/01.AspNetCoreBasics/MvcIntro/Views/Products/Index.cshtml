@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Products";
+    IEnumerable<string> products = ViewData["Products"] as IEnumerable<string>
+    ?? new List<string>();
+}
+
+<div class="text-center">
+    <h1 class="display-4 welcome-head">All products</h1>
+    <p><a href="https://youtu.be/dQw4w9WgXcQ?si=Ufkxxp6q2hxW9mb1">W</a></p>
+
+    <div class="row">
+        <ul class="list-group">
+            @foreach (string product in products)
+            {
+                <li class="list-group-item">@(product)</li>
+            }
+        </ul>
+    </div>
+</div>
